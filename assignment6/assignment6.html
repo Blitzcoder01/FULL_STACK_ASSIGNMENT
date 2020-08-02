@@ -9,6 +9,7 @@
       
         <!-- CSS style to put div side by side -->
         <style type="text/css">  
+        
         .container { 
             width:100em; 
             height:25em; 
@@ -17,7 +18,8 @@
             padding-left:5px; 
             padding-right:5px; 
         } 
-        #st-box { 
+        
+        #first-box { 
             
         border-color: silver;
         
@@ -30,7 +32,7 @@
         border-radius: 2em;
         background-color: snow ;
         } 
-        #nd-box { 
+        #second-box { 
         border-color: silver;
         
         border: 3px solid silver;
@@ -43,7 +45,7 @@
         background-color: snow;
         
         } 
-        #rd-box { 
+        #third-box { 
          border-color: silver;
         
         border: 3px solid silver;
@@ -55,7 +57,7 @@
         border-radius: 2em;
         background-color: snow;
         } 
-        #th-box { 
+        #fourth-box { 
          border-color: silver;
         
         border: 3px solid silver;
@@ -67,6 +69,7 @@
         border-radius: 2em;
         background-color: snow;
         } 
+       
         h1 { 
             color:white; 
             font-size: 1.8em;
@@ -82,7 +85,12 @@
             margin-left: 1em;
             margin-right: 1em;
         }
+        .button:hover{
+            background-color:blue;
+            }
+            
         .button {
+            
   background-color: red;
   border: none;
   color: white;
@@ -94,12 +102,11 @@ width:18em;
   display:block;
   font-size: 16px;
   margin: 6px 4px;
-  cursor:inherit;
+  cursor:-webkit-grab;
   border-radius: 0.5em;
-
   
-
 }
+
         </style>  
     </head>  
       
@@ -108,27 +115,27 @@ width:18em;
         <h1>PRACTICAL-6: CREATE FOLLOWING LAYOUT USING CSS LAYOUT PROPERTIES.</h1> 
           
         <div class="container"> 
-            <div id="st-box"> 
+            <div id="first-box"> 
                 <img src="../img/html5.png"style="width:290px; height:150px;"> 
                 <h3>Introduction to HTML</h3>
                 <p>HTML stands for HyperText Markup Language, and it is most widely used language to write Web Pages.It is not a programming language</p>
-                <a href="../assignment5/htmlintro.html" class="button">Read More</a>
+                <a href="../assignment5/htmlintro.html" class="button" >Read More</a>
             </div> 
               
-            <div id="nd-box"> 
+            <div id="second-box"> 
                 <img src="../img/cssnew.png"style="width:290px; height:150px;"> 
                 <h3>Introduction to CSS</h3>
                 <p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language like HTML.</p>
                 <a href="../assignment5/cssintro.html" class="button">Read More</a>
             </div> 
               
-            <div id="rd-box"> 
+            <div id="third-box"> 
                 <img src="../img/jquery.png"style="width:290px; height:150px;">
                 <h3>Introduction to JavaScript</h3>
                 <p>JavaScript is a cross-platform, object-oriented scripting language used to make webpages interactive (e.g., having complex animations, clickable buttons)</p>
                 <a href="../assignment5/jsintro.html" class="button">Read More</a>
             </div> 
-            <div id="th-box"> 
+            <div id="fourth-box"> 
                 <img src="../img/bootstrap2.png"style="width:290px; height:150px;"> 
                 <h3>Introduction to BootStrap</h3>
                 <p>Bootstrap is a free and open-source tool collection for creating responsive websites and web applications. bootstrap is a famous software</p>
@@ -138,3 +145,4 @@ width:18em;
         </center> 
     </body> 
 </html>                     
+                   
